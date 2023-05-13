@@ -14,3 +14,4 @@ function some(){ // function define
 }
 some(); // function calling 
 ```
+/////
