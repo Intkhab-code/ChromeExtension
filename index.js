@@ -84,23 +84,37 @@
 //     console.log('a is greater than 10');
 // }
 
-let b=4;
-switch (b) {
-    case 0:
-        console.log("result o");
-        break;
+// let b=4;
+// switch (b) {
+//     case 0:
+//         console.log("result o");
+//         break;
 
-    case 1:
-        console.log("result 1");
-        break
-case 2:
-    console.log("result 2");
-    break;
+//     case 1:
+//         console.log("result 1");
+//         break
+// case 2:
+//     console.log("result 2");
+//     break;
 
-    case 3:
-        console.log("result 3");
+//     case 3:
+//         console.log("result 3");
+//         break;
+//         default:
+//             console.log("no result");
+//         break;
+// }
+
+// // loop
+// for(let i=0; i<=6; i++) {
+//     console.log(i);
+// }
+let a=0;
+while(true){
+    if(a===60){
         break;
-        default:
-            console.log("no result");
-        break;
+    }
+    console.log(a);
+    a++;
 }
+
