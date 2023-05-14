@@ -132,7 +132,7 @@
 // }
 
 // console.log('hey')
-const array = [1, 3, 10, 11, 14]
+const array = [ 11, 14,6,7]
 // let goal = 13
 // const twoSum = (array, goal) => {
 //     let indexes = [];
@@ -152,8 +152,16 @@ const array = [1, 3, 10, 11, 14]
 // array.shift()
 // array.unshift(10)
 // array[1]=5;
-delete array[0]
-console.log(array);
+// const array2=[18,16];
+// const array3=array2.concat(array);
+// delete array[0]
+// const array3=array.slice(1);
+// console.log(array3.length);
+// array.splice(0, 3);
+let fruits=["banana", "apple", "orange"]
+fruits.sort();
+fruits.reverse()
+console.log(fruits);
 
 
 
