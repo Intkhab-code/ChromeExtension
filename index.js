@@ -163,5 +163,23 @@ fruits.sort();
 fruits.reverse()
 console.log(fruits);
 
+// jsConversion
+// let str="24516";
+// let num=Number(str);
+// console.log(typeof num);
+// console.log(num);
+// let bool= Boolean(str);
+// console.log(bool);
+let num2=24536;
+let numToString= String(num2)
+console.log(numToString);
+console.log(typeof numToString);
+
+// *************************Comparison operator**********************************************
+console.log(2==="2");
+console.log(+true);
+console.log(+"");
+
+
 
 
