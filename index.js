@@ -158,10 +158,10 @@ const array = [ 11, 14,6,7]
 // const array3=array.slice(1);
 // console.log(array3.length);
 // array.splice(0, 3);
-let fruits=["banana", "apple", "orange"]
-fruits.sort();
-fruits.reverse()
-console.log(fruits);
+// let fruits=["banana", "apple", "orange"]
+// fruits.sort();
+// fruits.reverse()
+// console.log(fruits);
 
 // jsConversion
 // let str="24516";
@@ -170,15 +170,50 @@ console.log(fruits);
 // console.log(num);
 // let bool= Boolean(str);
 // console.log(bool);
-let num2=24536;
-let numToString= String(num2)
-console.log(numToString);
-console.log(typeof numToString);
+// let num2=24536;
+// let numToString= String(num2)
+// console.log(numToString);
+// console.log(typeof numToString);
 
 // *************************Comparison operator**********************************************
-console.log(2==="2");
-console.log(+true);
-console.log(+"");
+// console.log(2==="2");
+// console.log(+true);
+// console.log(+"");
+// let num1, num3;
+// num1=num3=4;
+// console.log(num1);
+// console.log("2">1);
+// console.log("hello"+" world")
+// const name= "Alam";
+// const age= 26;
+// console.log(`may name is ${name} and age is ${age}`);
+// const gameName= new String("Alam")
+// console.log(gameName.toUpperCase());
+// console.log(gameName[0]);
+// console.log(gameName.charAt(2));
+// // console.log(gameName.indexOf("l"));
+// const nam= "  Alam ";
+// const newString= name.substring(1,3);
+// console.log(newString);
+// console.log(nam.slice(-3,1));
+// console.log(nam.trim())
+
+// ****************Number and Math**************
+// const num= 400;
+// const balance = new Number(num);
+// console.log(balance);
+// console.log(balance.toString().length);
+// console.log(balance.toFixed(2));
+// let hundred= 100000;
+// console.log(hundred.toLocaleString('en-IN'));
+
+console.log(Math.abs(-4));
+
+
+// ********************** Date ************************
+let myCreateDate= new Date();
+console.log(myCreateDate.toLocaleDateString());
+
 
 
 
