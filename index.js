@@ -162,6 +162,14 @@ const array = [ 11, 14,6,7]
 // fruits.sort();
 // fruits.reverse()
 // console.log(fruits);
+let arr1=[2,4,5,6];
+let arr2=["mango","banana","apple","orange"];
+// console.log([...arr1, ...arr2]);
+let arr3=arr1.concat(arr2);
+// console.log(arr3);
+arr1.push(arr2)
+
+// console.log(arr1[4][1]);   
 
 // jsConversion
 // let str="24516";
@@ -207,14 +215,16 @@ const array = [ 11, 14,6,7]
 // let hundred= 100000;
 // console.log(hundred.toLocaleString('en-IN'));
 
-console.log(Math.abs(-4));
+// console.log(Math.abs(-4));
 
 
 // ********************** Date ************************
 let myCreateDate= new Date();
-console.log(myCreateDate.toLocaleDateString());
-
-
-
+// console.log(myCreateDate.toLocaleDateString());
+var a=5;
+{
+    var a=10;
+}
+console.log(a);
 
 
