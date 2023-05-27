@@ -221,10 +221,54 @@ arr1.push(arr2)
 // ********************** Date ************************
 let myCreateDate= new Date();
 // console.log(myCreateDate.toLocaleDateString());
-var a=5;
-{
-    var a=10;
+// var a=5;
+// {
+//     var a=10;
+// }
+// console.log(a);
+
+// let a=5;
+// console.log(a);
+// {
+//     let a=10;
+//     console.log(a);
+// }
+// const a=5;
+// console.log(a);
+// {
+//     const a=20;
+//     console.log(a);
+// }
+
+
+// *************************Rest operator and IFFE***************************************
+// (function ad(...a){
+//    console.log(a[2]);
+// })(5,6,7,9);
+
+// let usernames=0;
+// if(usernames){
+//     console.log("we got a mail");
+// }else{
+//     console.log("we got nothing");
+// }
+
+// function name(...a) {
+//     return a;
+// }console.log(name(4,7,9,7,1));
+
+// (function num(val1, val2,...a) {
+//     return a;
+// })num(4,7,9,7,1);
+
+
+// *********************for in and for of*****************************************
+const arr=[3,4,1,6,7]
+// for (const num of arr) {
+//     console.log(num);
+// }
+
+// array have also the value in key value paire  0:3, 1:4,
+for (const num in arr) {
+    console.log(arr[num]);
 }
-console.log(a);
-
-
