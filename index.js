@@ -270,5 +270,85 @@ const arr=[3,4,1,6,7]
 
 // array have also the value in key value paire  0:3, 1:4,
 for (const num in arr) {
-    console.log(arr[num]);
+    // console.log(arr[num]);
 }
+
+
+// ******************************Maps****************************
+const map= new Map();
+map.set('name',"Intkhab")
+map.set('roll',344)
+
+// console.log(map);
+
+for (const [key, value] of map) {
+    //  console.log(key,'-', value);
+        
+    }
+
+const lang=[ programmingLanguage={
+    js: "javascript",
+    java: "java",
+    cpp: "C++"
+}]
+for (const nam in programmingLanguage) {
+    // console.log(programmingLanguage[nam]);
+}
+
+
+// *******************************forEach****************************
+lang.forEach((item) => {
+    // console.log(item.js);
+});
+
+arr.forEach((item)=>{
+    // console.log(item);
+})
+
+// when we store in a variable to forEach they return nothing
+const a=arr.forEach((item)=>{
+    // console.log(item);
+    return item;
+})
+console.log(a);
+
+function printMe(item) {
+    // console.log(item);
+    
+}
+
+arr.forEach(printMe)
+
+
+// arr.forEach((item, index, arr) => console.log(item, index, arr)
+// )
+
+
+// ************************************************filter and reduce************************************************
+const myNums=[2,4,3,6]
+// const newNums=myNums.filter((item)=> item>2)
+// console.log(newNums);
+
+// const findingNum= myNums.filter((num)=>{
+//     return num===4;
+// })
+// console.log(findingNum);
+
+const findingNum= myNums.map((num)=>  num + 10 )
+// console.log(findingNum);
+
+
+const newNums=[];
+myNums.forEach((num) =>{
+   if (num>2){
+        newNums.push(num)
+   }
+})
+// console.log(newNums); 
+
+// Reduce
+const myTotal= myNums.reduce(( acc, curval ) =>{
+     console.log(`acc ${acc} and curval ${curval}`);
+     return acc+ curval;
+},0)
+console.log(myTotal);
